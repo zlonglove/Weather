@@ -18,7 +18,11 @@ import com.way.bean.City;
 import com.way.plistview.PinnedHeaderListView;
 import com.way.plistview.PinnedHeaderListView.PinnedHeaderAdapter;
 import com.way.weather.R;
-
+/**
+ * 
+ * @author zhanglong
+ *
+ */
 public class CityAdapter extends BaseAdapter implements SectionIndexer,
 		PinnedHeaderAdapter, OnScrollListener {
 	// 首字母集
